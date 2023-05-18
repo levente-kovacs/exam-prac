@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskola", "Iskola\Iskola.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskolaTests", "IskolaTests\IskolaTests.csproj", "{FC8B404C-CCB3-4F4B-889E-B1BB3EC3E4ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskolaWPF", "IskolaWPF\IskolaWPF.csproj", "{76C04277-E2C0-42EA-B9A8-3578F4834FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC8B404C-CCB3-4F4B-889E-B1BB3EC3E4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8B404C-CCB3-4F4B-889E-B1BB3EC3E4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8B404C-CCB3-4F4B-889E-B1BB3EC3E4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C04277-E2C0-42EA-B9A8-3578F4834FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C04277-E2C0-42EA-B9A8-3578F4834FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C04277-E2C0-42EA-B9A8-3578F4834FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C04277-E2C0-42EA-B9A8-3578F4834FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

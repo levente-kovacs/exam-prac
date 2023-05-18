@@ -1,0 +1,21 @@
+﻿<Window x:Class="haromszogekwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:haromszogekwpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="a_oldal" HorizontalAlignment="Left" Margin="514,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="b_oldal" HorizontalAlignment="Left" Margin="514,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="c_oldal" HorizontalAlignment="Left" Margin="514,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="a:" HorizontalAlignment="Left" Margin="471,71,0,0" VerticalAlignment="Top"/>
+        <Label Content="b:" HorizontalAlignment="Left" Margin="471,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="c:" HorizontalAlignment="Left" Margin="471,191,0,0" VerticalAlignment="Top"/>
+        <Button Name="hozzadad" Content="Hozzáad" HorizontalAlignment="Left" Margin="471,250,0,0" VerticalAlignment="Top" Click="hozzadad_Click"/>
+        <Button Name="mentes" Content="Mentés" HorizontalAlignment="Left" Margin="471,340,0,0" VerticalAlignment="Top" Click="mentes_Click"/>
+        <DataGrid Name="datagrid" Margin="0,0,550,0"/>
+
+    </Grid>
+</Window>
