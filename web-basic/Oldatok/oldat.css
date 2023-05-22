@@ -1,0 +1,74 @@
+body {
+	background-image: url('./minta.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+#tartalom {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	border-bottom: 8px dashed teal;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+}
+
+p,
+li {
+	text-align: justify;
+}
+
+#kep {
+	border: 10px outset teal;
+	margin-left: 15px;
+	float: right;
+}
+
+#keplet {
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+	background-color: teal;
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+input, button {
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 5px;
+	width: 90px;
+}
+
+#megoldas {
+	font-weight: bold;
+	color: teal;
+	padding: 5px;
+}
+
+#forras {
+	font-weight: bold;
+	text-align: right;
+	font-style: italic;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 1px 0px white;
+}
+
+ul {
+	list-style-image: url('./lombik.png');
+}
+
+.oldat {
+	font-weight: bold;
+	text-decoration: underline;
+}
