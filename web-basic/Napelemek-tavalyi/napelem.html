@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-red">
+  <a class="navbar-brand" href="#">Navigáció </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav nav-tabs bg-red">
+      <li class="nav-item active">
+        <a class="nav-link" href="#magyar">Napelemek magyarországon <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#elsomagyar">Az első napelemgyár</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#fajtak">Napelemek fajtái</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#teljesitmeny">Kinyerhető teljesítmény</a>
+      </li>     
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div id="slider" class="container carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"</li>
+  </ul>  
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pictures/kep1.jpg" alt="napelem1" title="napelem1"> 
+    </div>
+    <div class="carousel-item">
+      <img src="pictures/kep2.jpg" alt="napelem2" title="napelem2">
+    </div>
+  </div>  
+ 
+  <a class="carousel-control-prev" href="#slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+	  <h1 class="display-2">Napelem</h1>
+      <p id="def">A napelem vagy fotovillamos elem, amit az idegen photo-voltaikus kifejezésből a magyar irodalom olykor PV elemnek is nevez, olyan szilárdtest eszköz, amely az elektromágneses sugárzást (fotonbefogást) közvetlenül villamos energiává alakítja. Az energiaátalakítás alapja, hogy a sugárzás elnyelődésekor mozgásképes töltött részecskéket generál, amiket az eszközben az elektrokémiai potenciálok, illetve az elektron kilépési munkák különbözőségéből adódó beépített elektromos tér rendezett mozgásra kényszerít, vagyis elektromos áram jön létre.</p>     
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6" id="magyar">
+      <h2 class="display-4">Napelemek magyarországon</h2>
+      <p>A napelemek első magyarországi megjelenéséről és a kezdeti időszakban történő elterjedéséről, lakossági felhasználásáról nincsenek megbízható adatok, a pontos dokumentáció hiányában nehéz meghatározni, hogy mikor telepítették az első napelemeket. A világ és a térség építészeti, energetikai trendjeit figyelembe véve valószínűsíthető, hogy Magyarországon is az 1980-as évek végén, az 1990-es évek elején jelent meg az ipari-kereskedelmi célú napelemes felhasználás.</p>
+    </div>
+    <div class="col-lg-6" id="elsomagyar">
+      <h2 class="display-4">Az első magyar napelemgyár</h2>
+      <p>Magyarországon az első napelemgyárat 1997-ben nyitották meg, a Dunasolar Napelemgyártó Rt. 1997 tavaszán kezdte meg a működését. A beruházás részben amerikai, részben magyar tőke bevonásával valósult meg, a budapesti telephelyen működő gyár egy magyar feltaláló szabadalmát alapul véve folytatta tevékenységét.A 9,2 millió dolláros beruházás induló tőkéjét az amerikai Energy Photovoltaics Inc. 51%-ban, a Magyar Fejlesztési Bank Rt. 49%-ban állta.A technológia a maga idejében forradalminak számított, a Dunasolar gyárában csúcstechnológiának számító eljárással készültek a napelemek. Az 1990-es évek közepén a budapesti gyárban használt amorf szilícium (a-Si) vékonyréteg-technológia valóban forradalminak volt mondható a napelemek gyártási folyamata során.</p>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-lg-12" id="fajtak">
+      <h2 class="display-4">A napelemek fajtái</h2> 
+      <p>Alapanyag szerint többféle napelemet különböztetünk meg:</p>
+      <ul>
+        <li>Kristályos napelemek</li>
+        <li>Gallium-arzenid vegyületen alapú napelemek</li>
+        <li>Amorf szilícium napelemek</li>
+        <li>Egyéb vegyület-félvezető alapú napeleme</li>
+        <li>Szerves festék alapú napelemek</li>
+        <li>Szerves anyagokból (polimerekből) készült napelemek</li>
+        <li>Szerves-szervetlen perovszkitek alapján készült napelemek</li>
+      </ul>
+      <img src="pictures/napelem-szereles.jpeg" class="img-thumbnail" alt="napelem-szereles" title="napelem-szereles"/>      
+     </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-6" id="teljesitmeny">
+      <h2 class="display-4">Kinyerhető teljesítmény</h2>    
+      <p>A napelemekből kinyerhető teljesítmény függ a fény beesési szögétől, a megvilágítás intenzitásától, és a napelemre csatolt terheléstől. A fény intenzitását kevéssé tudjuk befolyásolni, míg a másik két paraméter elméletileg kézben tartható.</p>    
+      <p>A napelem beépítése szerint lehet fix vagy napkövető jellegű.</p>
+      <p>A napkövető rendszerekkel a magyarországi éghajlati viszonyok mellett 30-40%-kal nagyobb teljesítmény érhető el.</p>
+    </div>
+    <div class="col-lg-6" id="tajolas">
+      <h2 class="display-4">Megfelelő tájolás</h2> 
+      <p>A fixen beépített napelem megfelelő tájolás esetén (déli irány, Magyarországon 35 fokos dőlésszög) reggeltől estig tud áramot termelni tiszta idő esetén. Természetesen reggel és este már csak kisebb teljesítményre képes a napelem, mivel fix rögzítés esetén a napsugárzás kis beesési szögben kisebb áramerősséget tud megtermelni. Ahhoz, hogy egész nap az időjárás által megengedett maximális teljesítménnyel tudjuk gyűjteni a napenergiát, a nappal folyamán vízszintesen forgatnunk, függőlegesen bólintanunk kell a napelemet úgy, hogy a napsugár beesési szöge a lehető legkisebb mértékben térjen el a merőlegestől. Ehhez plusz elektronikát és mechanikus elemeket kell felhasználnunk, és a telepítési hely megválasztására is nagyobb gondot kell fordítani, továbbá karbantartási költségekre is számítani kell. Ellenben a fix beépítésnél elegendő a (tervezéskor már jól betájolt) ház tetőszerkezetét felhasználnunk a napelemek tartójának.</p>
+    </div>
+  </div>
+  <button onclick="fel()" id="felGomb" title="Az oldal tetejére">Fel</button> 
+</div>
+<footer class="text-center py-3">Források:
+    <img src="wikiindexico.png">/<a href="https://hu.wikipedia.org/wiki/Napelem#Napelemek_Magyarorsz%C3%A1gon" target="_blank">Napelemek_Magyarországon</a>
+</footer>
+
+</body>
+</html>
+

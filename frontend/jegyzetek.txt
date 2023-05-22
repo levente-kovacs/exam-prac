@@ -1,0 +1,16 @@
+Create React App:
+1) Új mappa (mappa nevében ne legyen nagy betű!)
+2) npx create-react-app .
+3) npm i --save react-router-dom
+4) npm i axios
+5) (Opcionális) npm i --save bootstrap
+   ! index.js-be: import 'bootstrap/dist/css/bootstrap.css';
+		  import 'bootstrap/dist/js/bootstrap.bundle';
+6) npm start
+
+Extension:
+ - ES7+ React/Redux/React-Native snippets - 8M+ downloads
+
+Create component:
+ - create .js file in src
+ - rfc + enter in file
