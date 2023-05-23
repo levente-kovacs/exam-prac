@@ -1,0 +1,14 @@
+WEB API
+
+Törölni a weatherforecastot!
+
+6-os .NET-hez minden package legfrissebb 6os verzióját tegyük fel!
+PACKAGES:
+ - MySql.EntityFrameworkCore - 2.77M
+ - Microsoft.EntityFrameworkCore - 701M
+ - Microsoft.EntityFrameworkCore.Tools - 219M
+
+Scaffold db:
+Scaffold-DbContext "server=localhost;database=Verseny;user=root;password=;ssl mode=none;" mysql.entityframeworkcore -outputdir Models -f
+
+Populálásnál a beépülő modelbe a virtual property elé: [JsonIgnore]
