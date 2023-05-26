@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labirintus", "Labirintus\Labirintus.csproj", "{4B4A9B54-A660-4B59-A415-71AA17D37AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabirintusGUI", "LabirintusGUI\LabirintusGUI.csproj", "{A89868B6-B32F-4075-992D-B247312621A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4A9B54-A660-4B59-A415-71AA17D37AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4A9B54-A660-4B59-A415-71AA17D37AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4A9B54-A660-4B59-A415-71AA17D37AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4A9B54-A660-4B59-A415-71AA17D37AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89868B6-B32F-4075-992D-B247312621A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89868B6-B32F-4075-992D-B247312621A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89868B6-B32F-4075-992D-B247312621A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89868B6-B32F-4075-992D-B247312621A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5553BA7-4D3D-4EB5-9991-C9E18A4A11EB}
+	EndGlobalSection
+EndGlobal
