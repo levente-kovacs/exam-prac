@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalatonCLI", "BalatonCLI\BalatonCLI.csproj", "{22C740C9-19E1-4050-889C-3C50E87872B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalatonCLITests", "BalatonCLITests\BalatonCLITests.csproj", "{9F8AD612-9805-47CF-A541-299F57670B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C740C9-19E1-4050-889C-3C50E87872B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C740C9-19E1-4050-889C-3C50E87872B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C740C9-19E1-4050-889C-3C50E87872B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C740C9-19E1-4050-889C-3C50E87872B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8AD612-9805-47CF-A541-299F57670B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8AD612-9805-47CF-A541-299F57670B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8AD612-9805-47CF-A541-299F57670B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8AD612-9805-47CF-A541-299F57670B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12117881-1FDB-4EF0-A3B4-E0FD31FFA327}
+	EndGlobalSection
+EndGlobal
