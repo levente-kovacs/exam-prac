@@ -64,7 +64,7 @@ namespace Ingatlan.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return StatusCode(404, "404 NOT FOUND";
+                    return StatusCode(404, "404 NOT FOUND");
                 }
             }
         }
