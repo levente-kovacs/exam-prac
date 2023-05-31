@@ -15,6 +15,7 @@ export default function Types() {
         (async () => {
             try {
                 const types = await axios.get(apiUrl);
+                console.log(types);
                 setTypes(types.data);
             } catch (err) {
                 console.log(err);
@@ -38,6 +39,7 @@ export default function Types() {
                                 <div className='card-body'>
                                     <h5 className='card-title mb-5 text-center'>{type.megnevezes}</h5>
                                     <p>{type.leiras}</p>
+                                    <img src="../" className="card-img-bottom" alt="..."></img>
                                     {/* <div>
                                         <button className='btn btn-outline-warning me-2'>
                                             <FontAwesomeIcon icon={faPencil} fixedWidth />
@@ -52,7 +54,6 @@ export default function Types() {
                                 </div>
                             </div>
                         </NavLink>
-
                     </div>
                 ))}
             </div>
