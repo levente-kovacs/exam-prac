@@ -11,4 +11,13 @@ PACKAGES:
 Scaffold db:
 Scaffold-DbContext "server=localhost;database=Verseny;user=root;password=;ssl mode=none;" mysql.entityframeworkcore -outputdir Models -f
 
-Populálásnál a beépülő modelbe a virtual property elé: [JsonIgnore]
+Populálásnál a fő modelbe a virtual property elé: [JsonIgnore]
+
+OPTIONS-T BERAKNI az AddControllers-be
+builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
+
+CORS 1 - var app = builder.Build(); ELÉ
+builder.Services.AddCors(c => { c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); });
+
+CORS 2 - var app = builder.Build(); UTÁN
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
